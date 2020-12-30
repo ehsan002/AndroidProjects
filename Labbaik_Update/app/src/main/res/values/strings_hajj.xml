@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hajj_activities_jilhajj8">
+
+        <item> ইহরাম বাঁধা </item>
+        <item> তালবিয়া পড়া </item>
+        <item> মিনায় যাত্রা শুরু করা</item>
+
+    </string-array>
+
+    <string-array name="umrah_activities">
+
+        <item> তাওয়াফ </item>
+        <item> সায়ী </item>
+        <item> হালাল হওয়া </item>
+
+    </string-array>
+
+    <string-array name="hajj_activities_jilhajj9">
+
+        <item> আরাফাতে অবস্থান </item>
+        <item> মুযদালিফায় যাওয়া </item>
+        <item> মাগরিব ও ইশার সালাত আদায় করা </item>
+        <item> কংকর সংগ্রহ </item>
+
+    </string-array>
+
+    <string-array name="hajj_activities_jilhajj10">
+
+        <item> মিনায় যাত্রা </item>
+        <item> কংকর নিক্ষেপ </item>
+        <item> কোরবানী করা </item>
+        <item> মাথার চুল ছাটা অথবা মুরানো </item>
+        <item> তাওয়াফ যিয়ারত করা </item>
+        <item> সায়ী করা </item>
+
+    </string-array>
+
+    <string-array name="hajj_activities_jilhajj11">
+
+        <item> মিনায় ফিরে আসা </item>
+        <item> কংকর নিক্ষেপ করা </item>
+        <item> বিদায়ী তাওয়াফ </item>
+
+    </string-array>
+
+    <string-array name="activity_detail_jilhajj_8">
+
+        <item>ইহরাম বাঁধা ফরজ।\n</item>
+        <item>হজের নিয়ত করে ইহরামের কাপড় পরে উচ্চস্বরে ৩ বার তালবিয়া পড়া।\n</item>
+        <item>৮ই জিলহজ মিনায় রওয়ানা হওয়া; সেখানে যোহর, আসর, মাগরিব, ইশা এবং ৯ই জিলহজ ফজরের সালাত আদায় করা।</item>
+
+    </string-array>
+
+    <string-array name="activity_detail_jilhajj_9">
+
+        <item>আরাফাতের ময়দানে অবস্থান করা ফরজ।\n</item>
+        <item>সুর্য্য অস্ত যাওয়ার পর তালবিয়া পড়ে পড়ে মুজদালিফায় যাওয়া।\n</item>
+        <item>রাতে মুজদালিফায় পৌঁছে এক আজান ও দুই ইক্বামতে মাগরিব এবং ইশার নামায আদায় করা।\n</item>
+        <item>রাতে ছোট ছোট ৪৯টি কংকর খুঁজে নেয়া।\n</item>
+
+    </string-array>
+
+    <string-array name="activity_detail_jilhajj_10">
+
+        <item>মুজদালিফায় ফজরের সালাত আদায়ের পর কিছুক্ষণ অবস্থান করে সূর্য্য উদয়ের আগেই মিনার দিকে রওনা হওয়া।\n</item>
+        <item>মিনায় জামারাতুল আক্বাবায় (বড় শয়তানের) উপর ৭টি কঙ্কর নিক্ষেপ করা।\n</item>
+        <item>কোরবানী করা।\n</item>
+        <item>মাথার চুল ছাঁটা অথবা মুড়ানো। \n</item>
+        <item>তারপর মক্কায় এসে তাওয়াফে যিয়ারাত করা ফরজ।\n</item>
+        <item>সাফা ও মারওয়া’র মধ্যবর্তী স্থানে সাত বার সাঈ করা।\n</item>
+
+    </string-array>
+
+    <string-array name="activity_detail_jilhajj_11">
+
+        <item> ১০ই জিলহজ তাওয়াফ এবং সাঈর পর মিনায় ফিরে আসা।\n</item>
+        <item>
+            "১১ ও ১২ তারিখ দুপুরের পর তিনটি জামারায় আল্লাহু আকবার বলে প্রতিটিতে সাতটি কংকর নিক্ষেপ করা। "
+            "১৩ই জিলহজ সূর্যাস্তের পূর্বে পাথর নিক্ষেপের কাজ শেষ করতে হবে।\n"
+        </item>
+        <item>হজ শেষ করার পর দেশে ফেরার আগে কাবা শরীফ তাওয়াফ করা।\n</item>
+
+    </string-array>
+
+
+</resources>

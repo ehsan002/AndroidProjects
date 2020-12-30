@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrayerTime">
+
+    <include layout="@layout/toolbar"></include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মক্কার নামাজের সময়সূচি"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#ccc"
+        android:layout_margin="16dp"
+        android:padding="1dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:padding="10dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:background="#fff"-->
+            <!--android:text="নামাজের সময়সূচি"/>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_marginBottom="1dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:text="আজকের নামাজের সময়সূচি"/>
+
+            <TextView
+                android:id="@+id/arabic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Arabik Date"/>
+
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ccc">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:id="@+id/ll_fajr">
+
+                    <TextView
+                        android:id="@+id/fajr_label"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="ফজর"/>
+
+                    <TextView
+                        android:id="@+id/fajr"
+                        android:layout_marginBottom="1dp"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/fajr_label"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:text="Fajr"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@id/ll_fajr"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/ll_sunrise">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fajr_label"
+                        android:id="@+id/sunrise_label"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:text="সূর্যোদয়"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_below="@+id/sunrise_label"
+                        android:layout_toRightOf="@+id/fajr"
+                        android:id="@+id/sunrise"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:layout_marginBottom="1dp"
+                        android:text="Sunrise"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ll_sunrise"
+                    android:layout_marginLeft="1dp"
+                    android:padding="16dp"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:id="@+id/ll_duhr">
+
+                    <TextView
+                        android:id="@+id/duhr_label"
+                        android:layout_toRightOf="@+id/sunrise_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#fff"
+                        android:text="যোহর"/>
+
+                    <TextView
+                        android:id="@+id/duhr"
+                        android:layout_below="@id/duhr_label"
+                        android:layout_toRightOf="@id/sunrise"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#fff"
+                        android:text="Duhr"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ll_duhr"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:id="@+id/ll_asr">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/duhr_label"
+                        android:id="@+id/asr_label"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:textColor="@color/colorPrimary"
+                        android:text="আসর"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Asr"
+                        android:id="@+id/asr"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_toRightOf="@id/duhr"
+                        android:layout_below="@id/asr_label"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:layout_toRightOf="@id/ll_asr"
+                    android:id="@+id/ll_magrib">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/asr_label"
+                        android:id="@+id/magrib_label"
+                        android:layout_marginLeft="1dp"
+                        android:textColor="@color/colorPrimary"
+                        android:background="#fff"
+                        android:text="মাগরিব"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/magrib"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:layout_below="@+id/magrib_label"
+                        android:layout_toRightOf="@+id/asr"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#fff"
+                        android:text="Fajr"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/ll_magrib"
+                    android:orientation="vertical"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:id="@+id/ll_isha">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/isha_label"
+                        android:layout_toRightOf="@+id/magrib_label"
+                        android:layout_marginLeft="1dp"
+                        android:background="#fff"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="1dp"
+                        android:text="এশা"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/isha"
+                        android:layout_below="@+id/isha_label"
+                        android:layout_toRightOf="@+id/magrib"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#fff"
+                        android:textSize="20sp"
+                        android:padding="5dp"
+                        android:text="Fajr"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

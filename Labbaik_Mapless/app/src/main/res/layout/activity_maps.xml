@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Maps">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/map"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="আপনার অবস্থান"
+                        android:textSize="13sp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:id="@+id/btn_current_pos"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll2"
+                    android:layout_toRightOf="@+id/ll1"
+                    android:layout_below="@+id/toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মাসজিদুল হারাম"
+                        android:textSize="13sp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:id="@+id/btn_m_haram"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll3"
+                    android:layout_below="@+id/ll1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="কাবা"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textSize="13sp"
+                        android:id="@+id/btn_kaaba"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll4"
+                    android:layout_below="@+id/ll2"
+                    android:layout_toRightOf="@+id/ll3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="সাফা-মারওয়া"
+                        android:textSize="13sp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:id="@+id/btn_sayee"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll5"
+                    android:layout_below="@+id/ll3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মীনা"
+                        android:textSize="13sp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:id="@+id/btn_mina"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll6"
+                    android:layout_below="@+id/ll4"
+                    android:layout_toRightOf="@id/ll5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="আরাফাত"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textSize="13sp"
+                        android:id="@+id/btn_arafat"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll7"
+                    android:layout_below="@+id/ll5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মুযদালিফা"
+                        android:textSize="13sp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:id="@+id/btn_muzdalifa"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll8"
+                    android:layout_below="@+id/ll6"
+                    android:layout_toRightOf="@+id/ll7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="জামারাত"
+                        android:textSize="13sp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:id="@+id/btn_jaamarat"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll9"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/ll7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="মাসজিদুন নববী"
+                        android:textSize="13sp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/border"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:id="@+id/btn_m_nababi"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

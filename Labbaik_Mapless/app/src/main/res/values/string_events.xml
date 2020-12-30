@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="event_titles">
+
+        <item>আরাফার দিন(হাজ্জ)</item>
+        <item>ঈদুল আজহা</item>
+        <item>হিজরী নববর্ষ</item>
+        <item>আশুরা</item>
+        <item>লাইলাতুল মিরাজ</item>
+        <item>লাইলাতুল বারা\'আত</item>
+        <item>রমজান শুরু</item>
+        <item>ঈদুল ফিতর</item>
+
+    </string-array>
+
+    <string-array name="event_date_arabic">
+
+        <item>৯ জিলহজ</item>
+        <item>১০ জিলহজ</item>
+        <item>১ মহররম</item>
+        <item>১০ মহররম</item>
+        <item>২৭ রজব</item>
+        <item>১৫ শাবান</item>
+        <item>১ রমজান </item>
+        <item>১ শাওয়াল </item>
+
+    </string-array>
+
+    <string-array name="event_date_english">
+
+        <item> সেপ্টেম্বর ১২, ২০১৬</item>
+        <item>সেপ্টেম্বর ১৩, ২০১৬</item>
+        <item>অক্টোবর  ৩,২০১৬</item>
+        <item>অক্টোবর ১২, ২০১৬</item>
+        <item>এপ্রিল ২৪, ২০১৭</item>
+        <item>মে ১২, ২০১৭</item>
+        <item>মে ২৭, ২০১৭</item>
+        <item>জুন ২৫, ২০১৭</item>
+
+    </string-array>
+
+</resources>

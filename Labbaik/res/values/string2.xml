@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="btn_farj">ফরজ</string>
+    <string name="btn_hajj">হজ</string>
+    <string name="btn_umrah">উমরা</string>
+    <string name="btn_daily_task">প্রতিদিনের কাজ</string>
+    <string name="btn_duas">প্রয়োজনীয় দোয়া</string>
+    
+    <string name="jil8">৮ জিলহজ </string>
+    <string name="jil9">৯ জিলহজ </string>
+    <string name="jil10">১০ জিলহজ </string>
+    <string name="jil11">১১-১৩ জিলহজ </string>
+
+</resources>

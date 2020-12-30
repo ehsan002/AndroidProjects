@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:id="@+id/ll_up"
+        android:layout_below="@+id/tv"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#45ffffff">
+
+        <LinearLayout
+            android:id="@+id/hajj"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_hajj"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textSize="13sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/hajj"
+                android:text="হজ"/>
+
+            <!--<TextView-->
+            <!--android:layout_below="@+id/btn_hajj"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/umra"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/hajj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_umra"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:text="উমরাহ"/>
+
+            <!--<TextView-->
+
+            <!--android:layout_below="@+id/iv_hajj"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="উমরাহ"/>-->
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/duas"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_toRightOf="@+id/umra"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_duas"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="13sp"-->
+                <!--android:textColor="@color/colorPrimary"-->
+                <!--android:background="@drawable/border"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="হজের দোয়া"/>-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@+id/iv_farj"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="হজের দোয়া"/>&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/importance"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@+id/hajj"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_duas"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/prayer"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_below="@+id/iv_hajj"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="দোয়া"/>-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/ihram"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_below="@+id/hajj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_ihram"
+                android:text="ইহরামে নিষিদ্ধ"
+                android:padding="5dp"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"/>
+
+            <!--<TextView-->
+            <!--android:layout_below="@+id/iv_ihram"-->
+            <!---->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/farj"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@+id/duas"-->
+        <!--android:layout_toRightOf="@+id/ihram"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_importance"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/importance"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_below="@+id/iv_hajj"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="গুরুত্ব"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/wajib"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_toRightOf="@+id/duas"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_wajib"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/wajib"/>-->
+
+        <!--<TextView-->
+
+        <!--android:layout_below="@+id/iv_wajib"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ওয়াজিব"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/settings"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_below="@+id/hajj"-->
+        <!--android:layout_toRightOf="@+id/farj"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_events"-->
+        <!--android:src="@mipmap/events"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_below="@+id/btn_events"-->
+        <!--android:text="গুরুত্বপূর্ণ\nদিনসমূহ"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/events"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/ihram"
+            android:layout_below="@+id/umra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_prayer_times"
+                android:text="নামাজের সময়সূচি"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--<TextView-->
+            <!--android:layout_below="@+id/btn_map"-->
+            <!--android:text="ম্যাপ"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_below="@+id/events"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_about"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অ্যাপ সম্পর্কে"/>
+
+            <!--<TextView-->
+
+            <!--android:layout_below="@+id/btn_about"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="অ্যাপ সম্পর্কে"/>-->
+
+        </LinearLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_prayer_times"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="নামাজের সময়সূচি"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:textSize="13sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_below="@id/about"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:background="@drawable/border"-->
+            <!--android:layout_gravity="center"/>-->
+
+    </RelativeLayout>
+
+</LinearLayout>

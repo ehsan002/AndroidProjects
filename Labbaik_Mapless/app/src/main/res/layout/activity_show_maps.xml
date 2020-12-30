@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ShowMaps" />
+
+
+    <include layout="@layout/toolbar"></include>
+
+    <TextView
+        android:id="@+id/testTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content"
+        android:text="আপনার অবস্থান থেকে\nযাওয়ার রাস্তা"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/btn_test"
+
+        android:layout_gravity="bottom"/>
+
+
+</FrameLayout>

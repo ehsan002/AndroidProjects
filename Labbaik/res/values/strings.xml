@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Labbaik</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="drawer_item">
+        <item>Home</item>
+        <item>হজের গুরুত্ব</item>
+        <item>হজের ফরজ\nও ওয়াজিব</item>
+        <item>ইহরাম অবস্থায়\nনিষিদ্ধ কাজ</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="btn_next">পরের দিন</string>
+    <string name="btn_prev">আগের দিন</string>
+    <string name="title_activity_main_fragment">Main Fragment</string>
+    <string name="title_activity_detail">Labbaik</string>
+    <string name="title_activity_daily_task">হজ</string>
+    <string name="title_activity_daily_detail">৮-ই জিলহজ</string>
+    <string name="title_activity_jilhajj9">৯-ই জিলহজ</string>
+    <string name="title_activity_jilhajj10">১০-ই জিলহজ</string>
+    <string name="title_activity_jilhajj11">১১-১৩ জিলহজ</string>
+    <string name="title_about">About</string>
+    <string name="about_detail">Application Name: Labbaik\n\nVersion: 1.0\n\nDeveloper: Ehsan Robbany Chowdhury\nB.Sc in Computer Science and Engineering\nMetropolitan University, Sylhet Bangladesh\nContact: ercj002@gmail.com</string>
+    <string name="title_hajj">হজের গুরুত্ব</string>
+    <string name="hajj_detail1">তোমরা আল্লাহর উদ্দেশ্যে হজ ও উমরা সম্পূর্ণ কর…\n\nসূরা বাকারাহ : ১৯৬\n\nনিশ্চই সর্বপ্রথম গৃহ যা, মানব মণ্ডলীর জন্য নির্দিষ্ট(প্রতিষ্ঠা) করা হয়েছে, তা ঐ ঘর, যা মক্কায় অবস্থিত; ওটা বরকতময় এবং সমস্ত বিশ্ববাসীর জন্য পথ-প্রদর্শক।\nতার মধ্যে প্রকাশ্য নিদর্শন সমূহ বিদ্যমান রয়েছে, মাকাম-ই-ইব্রাহীম উক্ত নিদর্শন সমূহের মধ্যে অন্যতম। আর যে ওর মধ্যে প্রবেশ করে সে নিরাপদ হয়ে যায় এবং আল্লাহর উদ্দেশ্যে এ গৃহের হজ করা সেসব মানুষের অবশ্য কর্তব্য যারা শারীরিক ও আর্থিকভাবে ঐ পথ অতিক্রমে সমর্থ এবং যদি কেউ অস্বীকার করে তবে নিশ্চই আল্লাহ সমগ্র বিশ্ববাসী হতে মুখাপেক্ষিহীন। \n\nসূরা আল ইমরান : ৯৬-৯৭\n\nএবং মানুষের কাছে হজের ঘোষণা করে দাও, তারা তোমার কাছে আসবে পদব্রজে ও সর্বপ্রকার ক্ষীণকায় উষ্ট্রসমূহের পিঠে, তারা আসবে দূর-দূরান্তের পথ অতিক্রম করে। \n\nসূরা হাজ্জ : ২৭\n\nহজরত আলী রা: থেকে বর্ণিত, রাসূল সা: ইরশাদ করেছেন যে ব্যক্তি আল্লাহর ঘরে পৌঁছুতে সম্পদ ও সওয়ারির মালিক হলো, তা সত্ত্বেও সে হজ করল না, সে ইহুদি বা খ্রিষ্টান হয়ে মরুক তাতে কিছু যায় আসে না।\n\nতিরমিজি : ১-১৬৭)।</string>
+    <string name="title_activity_hajj">হজ</string>
+
+</resources>

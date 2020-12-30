@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#336600"
+            android:layout_margin="10sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="Title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#e8f3fc"
+            android:layout_margin="10sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/arabic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#061807"
+                android:textSize="30sp"
+                android:padding="10sp"
+                android:text="Arabic Text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#e8f3fc"
+            android:layout_margin="10sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/uccharon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#061807"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:text="Bangla Uccharon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            android:background="#e8f3fc"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/bangla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#061807"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:text="Bangla Text" />
+        </LinearLayout>
+        
+<!--         <LinearLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_gravity="center" -->
+<!--             android:gravity="center" -->
+<!--             android:layout_margin="10sp" -->
+<!--             android:background="#061807" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/ref" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:textColor="#0074cc" -->
+<!--                 android:padding="10sp" -->
+<!--                 android:text="Reff Text" /> -->
+<!--         </LinearLayout> -->
+    </LinearLayout>
+
+</ScrollView>

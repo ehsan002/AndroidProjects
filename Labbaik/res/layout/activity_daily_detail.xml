@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/titleDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="@string/title8"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/imageLayout"
+            android:layout_height="300dip"
+            android:background="@drawable/mina"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
+                android:background="#e3cda4"
+                android:gravity="left"
+                android:padding="10sp"
+                android:text="@string/jilhajj8"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_marginBottom="10sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10sp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:layout_margin="10sp"
+                android:background="@drawable/buttonshape"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_next" />
+
+            <Button
+                android:id="@+id/btn_hme8"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttonshape"
+                android:text="Home" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

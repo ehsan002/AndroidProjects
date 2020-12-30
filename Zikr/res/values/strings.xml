@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zikr</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="drawer_item">
+        <item>Home</item>
+        <item>Foreword</item>
+        <item>About Developer</item>
+        <item>References</item>
+    </string-array>
+    <string-array name="dua_list">
+        <item>ঘুম থেকে উঠে</item>
+        <item>বাথরুমে যাওয়ার সময়</item>
+        <item>বাথরুম থেকে বের হবার সময়</item>
+        <item>ঘর থেকে বেরোবার সময়</item>
+        <item>যানবাহনে চরার সময়</item>
+        <item>ঘরে প্রবেশের সময়</item>
+        <item>খাওয়ার শুরুতে</item>
+        <item>খাওয়ার শেষে</item>
+        <item>বিপদে পড়লে</item>
+        <item>ঘুমানোর আগে</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_detail_activity">Duah</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

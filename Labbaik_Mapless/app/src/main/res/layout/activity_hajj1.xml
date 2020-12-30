@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ehsanrc.labbaik.Hajj1">
+
+    <include layout="@layout/toolbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/hajj_back"/>
+
+            <Button
+                android:id="@+id/btn_hajj_rules"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:background="@drawable/border"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="হজের নিয়ম"/>
+
+            <Button
+                android:id="@+id/btn_hajj_farj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/border"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="হজের ফরজ সমূহ"/>
+
+            <Button
+                android:id="@+id/btn_hajj_wajib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:background="@drawable/border"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorPrimary"
+                android:text="হজের ওয়াজিব সমূহ"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="engDateAug">
+
+        <item> 01 </item>
+        <item> 02 </item>
+        <item> 03 </item>
+        <item> 04 </item>
+        <item> 05 </item>
+        <item> 06 </item>
+        <item> 07 </item>
+        <item> 08 </item>
+        <item> 09 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+        <item> 13 </item>
+        <item> 14 </item>
+        <item> 15 </item>
+        <item> 16 </item>
+        <item> 17 </item>
+        <item> 18 </item>
+        <item> 19 </item>
+        <item> 20 </item>
+        <item> 21 </item>
+        <item> 22 </item>
+        <item> 23 </item>
+        <item> 24 </item>
+        <item> 25 </item>
+        <item> 26 </item>
+        <item> 27 </item>
+        <item> 28 </item>
+        <item> 29 </item>
+        <item> 30 </item>
+        <item> 31 </item>
+
+    </string-array>
+
+    <string-array name="engDate">
+
+        <item> 01 </item>
+        <item> 02 </item>
+        <item> 03 </item>
+        <item> 04 </item>
+        <item> 05 </item>
+        <item> 06 </item>
+        <item> 07 </item>
+        <item> 08 </item>
+        <item> 09 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+        <item> 13 </item>
+        <item> 14 </item>
+        <item> 15 </item>
+        <item> 16 </item>
+        <item> 17 </item>
+        <item> 18 </item>
+        <item> 19 </item>
+        <item> 20 </item>
+        <item> 21 </item>
+        <item> 22 </item>
+        <item> 23 </item>
+        <item> 24 </item>
+        <item> 25 </item>
+        <item> 26 </item>
+        <item> 27 </item>
+        <item> 28 </item>
+        <item> 29 </item>
+        <item> 30 </item>
+
+    </string-array>
+
+    <string-array name="arabicDateAug">
+
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>শাওয়াল</item>
+        <item>৯ জিলক্বদ</item>
+        <item>১০ জিলক্বদ</item>
+        <item>১১ জিলক্বদ</item>
+        <item>১২ জিলক্বদ</item>
+        <item>১৩ জিলক্বদ</item>
+        <item>১৪ জিলক্বদ</item>
+        <item>১৫ জিলক্বদ</item>
+        <item>১৬ জিলক্বদ</item>
+        <item>১৭ জিলক্বদ</item>
+        <item>১৮ জিলক্বদ</item>
+        <item>১৯ জিলক্বদ</item>
+        <item>২০ জিলক্বদ</item>
+        <item>২১ জিলক্বদ</item>
+        <item>২২ জিলক্বদ</item>
+        <item>২৩ জিলক্বদ</item>
+        <item>২৪ জিলক্বদ</item>
+        <item>২৫ জিলক্বদ</item>
+        <item>২৬ জিলক্বদ</item>
+        <item>২৭ জিলক্বদ</item>
+        <item>২৮ জিলক্বদ</item>
+
+    </string-array>
+
+    <string-array name="arabicDate">
+
+
+        <item>২৯ জিলক্বদ</item>
+        <item>৩০ জিলক্বদ</item>
+        <item>০১ জিলহজ</item>
+        <item>০২ জিলহজ</item>
+        <item>০৩ জিলহজ</item>
+        <item>০৪ জিলহজ</item>
+        <item>০৫ জিলহজ</item>
+        <item>০৬ জিলহজ</item>
+        <item>০৭ জিলহজ</item>
+        <item>০৮ জিলহজ</item>
+        <item>০৯ জিলহজ</item>
+        <item>১০ জিলহজ</item>
+        <item>১১ জিলহজ</item>
+        <item>১২ জিলহজ</item>
+        <item>১৩ জিলহজ</item>
+        <item>১৪ জিলহজ</item>
+        <item>১৫ জিলহজ</item>
+        <item>১৬ জিলহজ</item>
+        <item>১৭ জিলহজ</item>
+        <item>১৮ জিলহজ</item>
+        <item>১৯ জিলহজ</item>
+        <item>২০ জিলহজ</item>
+        <item>২১ জিলহজ</item>
+        <item>২২ জিলহজ</item>
+        <item>২৩ জিলহজ</item>
+        <item>২৪ জিলহজ</item>
+        <item>২৫ জিলহজ</item>
+        <item>২৬ জিলহজ</item>
+        <item>২৭ জিলহজ</item>
+        <item>২৮ জিলহজ</item>
+
+    </string-array>
+
+
+
+    <string-array name="day_aug">
+
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+
+    </string-array>
+
+    <string-array name="day">
+
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+        <item>শনি বার</item>
+        <item>রবি বার</item>
+        <item>সোম বার</item>
+        <item>মঙ্গল বার</item>
+        <item>বুধ বার</item>
+        <item>বৃহস্পতি বার</item>
+        <item>শুক্র বার</item>
+
+    </string-array>
+
+
+
+    <string-array name="fajr_aug">
+
+        <item>৪.৪৬ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৫০ </item>
+        <item>৪.৩৭ </item>
+        <item>৪.৩৮ </item>
+        <item>৪.৩৯ </item>
+        <item>৪.৪০ </item>
+        <item>৪.৪০ </item>
+        <item>৪.৪১ </item>
+        <item>৪.৪১ </item>
+        <item>৪.৪১ </item>
+        <item>৪.৪২ </item>
+        <item>৪.৪২ </item>
+        <item>৪.৪৩ </item>
+        <item>৪.৪৩ </item>
+        <item>৪.৪৪ </item>
+        <item>৪.৪৪ </item>
+        <item>৪.৪৪ </item>
+        <item>৪.৪৫ </item>
+        <item>৪.৪৬ </item>
+        <item>৪.৪৬ </item>
+        <item>৪.৪৬ </item>
+        <item>৪.৪৭ </item>
+
+    </string-array>
+
+    <string-array name="fajr">
+
+        <item>৪.৪৬ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৭ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৮ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৪৯ </item>
+        <item>৪.৫০ </item>
+        <item>৪.৫০ </item>
+        <item>৪.৫০ </item>
+        <item>৪.৫১ </item>
+        <item>৪.৫১ </item>
+        <item>৪.৫১ </item>
+        <item>৪.৫২ </item>
+        <item>৪.৫২ </item>
+        <item>৪.৫২ </item>
+        <item>৪.৫৩ </item>
+        <item>৪.৫৩ </item>
+        <item>৪.৫৩ </item>
+        <item>৪.৫৪ </item>
+        <item>৪.৫৪ </item>
+        <item>৪.৫৪ </item>
+        <item>৪.৫৪ </item>
+        <item>৪.৫৫ </item>
+        <item>৪.৫৫ </item>
+        <item>৪.৫৫ </item>
+        <item>৪.৫৬ </item>
+
+    </string-array>
+
+    <string-array name="sunrise_aug">
+
+        <item>৬.০৩</item>
+        <item>৬.০৩</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৬</item>
+        <item>৫.৫৭</item>
+        <item>৫.৫৮</item>
+        <item>৫.৫৮</item>
+        <item>৫.৫৯</item>
+        <item>৫.৫৯</item>
+        <item>৫.৫৯</item>
+        <item>৬.০০</item>
+        <item>৬.০০</item>
+        <item>৬.০০</item>
+        <item>৬.০১</item>
+        <item>৬.০১</item>
+        <item>৬.০১</item>
+        <item>৬.০১</item>
+        <item>৬.০২</item>
+        <item>৬.০২</item>
+        <item>৬.০২</item>
+        <item>৬.০৩</item>
+        <item>৬.০৩</item>
+        <item>৬.০৩</item>
+        <item>৬.০৩</item>
+
+    </string-array>
+
+    <string-array name="sunrise">
+
+        <item>৬.০৩</item>
+        <item>৬.০৩</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৪</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৫</item>
+        <item>৬.০৬</item>
+        <item>৬.০৬</item>
+        <item>৬.০৬</item>
+        <item>৬.০৬</item>
+        <item>৬.০৭</item>
+        <item>৬.০৭</item>
+        <item>৬.০৭</item>
+        <item>৬.০৭</item>
+        <item>৬.০৮</item>
+        <item>৬.০৮</item>
+        <item>৬.০৮</item>
+        <item>৬.০৮</item>
+        <item>৬.০৯</item>
+        <item>৬.০৯</item>
+        <item>৬.০৯</item>
+        <item>৬.০৯</item>
+        <item>৬.১০</item>
+        <item>৬.১০</item>
+        <item>৬.১০</item>
+        <item>৬.১১</item>
+
+    </string-array>
+
+    <string-array name="duhr_aug">
+
+        <item>১২.২০</item>
+        <item>১২.২০</item>
+        <item>১২.২০</item>
+        <item>১২.১৯</item>
+        <item>১২.১৯</item>
+        <item>১২.১৯</item>
+        <item>১২.১৮</item>
+        <item>১২.১৮</item>
+        <item>১২.১৮</item>
+        <item>১২.১৭</item>
+        <item>১২.১৭</item>
+        <item>১২.২৬</item>
+        <item>১২.২৬</item>
+        <item>১২.২৬</item>
+        <item>১২.২৬</item>
+        <item>১২.২৫</item>
+        <item>১২.২৫</item>
+        <item>১২.২৫</item>
+        <item>১২.২৫</item>
+        <item>১২.২৪</item>
+        <item>১২.২৪</item>
+        <item>১২.২৪</item>
+        <item>১২.২৪</item>
+        <item>১২.২৩</item>
+        <item>১২.২৩</item>
+        <item>১২.২৩</item>
+        <item>১২.২৩</item>
+        <item>১২.২২</item>
+        <item>১২.২২</item>
+        <item>১২.২২</item>
+        <item>১২.২১</item>
+
+    </string-array>
+
+    <string-array name="duhr">
+
+        <item>১২.২০</item>
+        <item>১২.২০</item>
+        <item>১২.২০</item>
+        <item>১২.১৯</item>
+        <item>১২.১৯</item>
+        <item>১২.১৯</item>
+        <item>১২.১৮</item>
+        <item>১২.১৮</item>
+        <item>১২.১৮</item>
+        <item>১২.১৭</item>
+        <item>১২.১৭</item>
+        <item>১২.১৭</item>
+        <item>১২.১৬</item>
+        <item>১২.১৬</item>
+        <item>১২.১৬</item>
+        <item>১২.১৫</item>
+        <item>১২.১৫</item>
+        <item>১২.১৫</item>
+        <item>১২.১৪</item>
+        <item>১২.১৪</item>
+        <item>১২.১৪</item>
+        <item>১২.১৩</item>
+        <item>১২.১৩</item>
+        <item>১২.১২</item>
+        <item>১২.১২</item>
+        <item>১২.১২</item>
+        <item>১২.১১</item>
+        <item>১২.১১</item>
+        <item>১২.১১</item>
+        <item>১২.১০</item>
+
+    </string-array>
+
+    <string-array name="asr_aug">
+
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪২</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৮</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৭</item>
+        <item>৩.৪৬</item>
+        <item>৩.৪৬</item>
+
+    </string-array>
+
+    <string-array name="asr">
+
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৫</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৪</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪৩</item>
+        <item>৩.৪২</item>
+        <item>৩.৪২</item>
+        <item>৩.৪২</item>
+        <item>৩.৪১</item>
+        <item>৩.৪১</item>
+        <item>৩.৪০</item>
+        <item>৩.৪০</item>
+        <item>৩.৪০</item>
+        <item>৩.৩৯</item>
+        <item>৩.৩৯</item>
+        <item>৩.৩৮</item>
+        <item>৩.৩৮</item>
+        <item>৩.৩৭</item>
+        <item>৩.৩৭</item>
+        <item>৩.৩৭</item>
+        <item>৩.৩৬</item>
+        <item>৩.৩৬</item>
+        <item>৩.৩৫</item>
+        <item>৩.৩৫</item>
+        <item>৩.৩৪</item>
+
+    </string-array>
+
+    <string-array name="magrib_aug">
+
+        <item>৬.৩৭</item>
+        <item>৬.৩৬</item>
+        <item>৬.৩৫</item>
+        <item>৬.৩৪</item>
+        <item>৬.৩৩</item>
+        <item>৬.৩২</item>
+        <item>৬.৩১</item>
+        <item>৬.৩০</item>
+        <item>৬.২৯</item>
+        <item>৬.২৮</item>
+        <item>৬.২৭</item>
+        <item>৬.৫৪</item>
+        <item>৬.৫৩</item>
+        <item>৬.৫২</item>
+        <item>৬.৫১</item>
+        <item>৬.৫১</item>
+        <item>৬.৫০</item>
+        <item>৬.৪৯</item>
+        <item>৬.৪৮</item>
+        <item>৬.৪৭</item>
+        <item>৬.৪৭</item>
+        <item>৬.৪৬</item>
+        <item>৬.৪৫</item>
+        <item>৬.৪৪</item>
+        <item>৬.৪৩</item>
+        <item>৬.৪৩</item>
+        <item>৬.৪২</item>
+        <item>৬.৪১</item>
+        <item>৬.৪০</item>
+        <item>৬.৩৯</item>
+        <item>৬.৩৮</item>
+
+    </string-array>
+
+    <string-array name="magrib">
+
+        <item>৬.৩৭</item>
+        <item>৬.৩৬</item>
+        <item>৬.৩৫</item>
+        <item>৬.৩৪</item>
+        <item>৬.৩৩</item>
+        <item>৬.৩২</item>
+        <item>৬.৩১</item>
+        <item>৬.৩০</item>
+        <item>৬.২৯</item>
+        <item>৬.২৮</item>
+        <item>৬.২৭</item>
+        <item>৬.২৬</item>
+        <item>৬.২৫</item>
+        <item>৬.২৪</item>
+        <item>৬.২৩</item>
+        <item>৬.২২</item>
+        <item>৬.২১</item>
+        <item>৬.২০</item>
+        <item>৬.২০</item>
+        <item>৬.১৯</item>
+        <item>৬.১৮</item>
+        <item>৬.১৭</item>
+        <item>৬.১৬</item>
+        <item>৬.১৫</item>
+        <item>৬.১৪</item>
+        <item>৬.১৩</item>
+        <item>৬.১২</item>
+        <item>৬.১১</item>
+        <item>৬.১০</item>
+        <item>৬.০৯</item>
+
+    </string-array>
+
+    <string-array name="isha_aug">
+
+        <item>৮.০৭</item>
+        <item>৮.০৬</item>
+        <item>৮.০৫</item>
+        <item>৮.০৪</item>
+        <item>৮.০৩</item>
+        <item>৮.০২</item>
+        <item>৮.০১</item>
+        <item>৮.০০</item>
+        <item>৭.৫৯</item>
+        <item>৭.৫৮</item>
+        <item>৭.৫৭</item>
+        <item>৮.২৪</item>
+        <item>৮.২৩</item>
+        <item>৮.২২</item>
+        <item>৮.২১</item>
+        <item>৮.২১</item>
+        <item>৮.২০</item>
+        <item>৮.১৯</item>
+        <item>৮.১৮</item>
+        <item>৮.১৭</item>
+        <item>৮.১৭</item>
+        <item>৮.১৬</item>
+        <item>৮.১৫</item>
+        <item>৮.১৪</item>
+        <item>৮.১৩</item>
+        <item>৮.১৩</item>
+        <item>৮.১২</item>
+        <item>৮.১১</item>
+        <item>৮.১০</item>
+        <item>৮.০৯</item>
+        <item>৮.০৮</item>
+
+    </string-array>
+
+    <string-array name="isha">
+
+        <item>৮.০৭</item>
+        <item>৮.০৬</item>
+        <item>৮.০৫</item>
+        <item>৮.০৪</item>
+        <item>৮.০৩</item>
+        <item>৮.০২</item>
+        <item>৮.০১</item>
+        <item>৮.০০</item>
+        <item>৭.৫৯</item>
+        <item>৭.৫৮</item>
+        <item>৭.৫৭</item>
+        <item>৭.৫৬</item>
+        <item>৭.৫৫</item>
+        <item>৭.৫৪</item>
+        <item>৭.৫৩</item>
+        <item>৭.৫২</item>
+        <item>৭.৫১</item>
+        <item>৭.৫০</item>
+        <item>৭.৫০</item>
+        <item>৭.৪৯</item>
+        <item>৭.৪৮</item>
+        <item>৭.৪৭</item>
+        <item>৭.৪৬</item>
+        <item>৭.৪৫</item>
+        <item>৭.৪৪</item>
+        <item>৭.৪৩</item>
+        <item>৭.৪২</item>
+        <item>৭.৪১</item>
+        <item>৭.৪০</item>
+        <item>৭.৩৯</item>
+
+    </string-array>
+
+</resources>
